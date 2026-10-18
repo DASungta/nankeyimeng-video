@@ -16,7 +16,7 @@
 | --- | --- |
 | 整个流程怎么做、踩过哪些坑 | [docs/WORKFLOW.md](docs/WORKFLOW.md) |
 | 分镜表、人物定型、唐代史实规范、每一镜发给 Muse 的提示词、字幕稿、配乐表 | [docs/storyboard.md](docs/storyboard.md) |
-| 每一轮出图、出视频的验收结论和导演意见 | [docs/muse-review.md](docs/muse-review.md) |
+| 每一轮出图、出视频的验收结论和制片人意见 | [docs/muse-review.md](docs/muse-review.md) |
 | 每个脚本怎么用、参数为什么这样定 | [docs/production-notes.md](docs/production-notes.md) |
 
 ## 仓库里有什么

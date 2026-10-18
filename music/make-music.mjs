@@ -823,7 +823,7 @@ pipa(T.S11 + 1.2, [[77, 1.5], [74, 0.5], [72, 1], [74, 2]], PIPA * 0.8, {beat: B
 tremolo(T.S11A + 1.0, WAR - T.S11A - 1.2, 74, PIPA * 0.55, (x) => 0.5 + 0.5 * Math.sin(Math.PI * Math.min(1, x * 1.2)), {pan: 0.3, eq: 'zheng', bright: 0.75});
 
 // ---- 兵败与丧 · S12B–S14A: war drums and 埙; the drums scatter into hooves; the 箫 alone ----
-// S12B: the 檀萝 army comes out of the valley (added 2026-10-17, director: show the enemy) — a march on the big drum,
+// S12B: the 檀萝 army comes out of the valley (added 2026-10-17, producer: show the enemy) — a march on the big drum,
 // low and steady, getting louder; the low tremolo comes in under it and the 埙 starts TA, darkened
 for (let d = 0.15, k = 0; d < T.S12 - WAR; d += 0.75, k++) gu(WAR + d, GU * 0.62 * (0.45 + 0.4 * Math.min(1, d / (T.S12 - WAR))) * (k % 2 ? 0.7 : 1), {f: 54, decay: 0.7, skin: 0.5});
 strings(WAR, T.S13 - WAR + 0.3, [38, 45, 50], PAD * 1.5, {attack: 0.8, release: 0.8, cutoff: 900, trem: 0.6, dyn: (t) => (0.45 + 0.55 * smooth(WAR, T.S12 + 1, t)) * (1 - 0.65 * smooth(T.S12A, T.S13, t))});
@@ -834,7 +834,7 @@ war.forEach(([d, g]) => gu(T.S12 + d, GU * 0.62 * g, {f: 52, decay: 0.9, skin: 0
 // S12A: the drums thin out and fall away; only the galloping horse is left
 [[0, 1], [0.9, 0.55], [2.1, 0.3]].forEach(([d, g]) => gu(T.S12A + d, GU * 0.62 * g, {f: 50, decay: 1.0, send: 0.4 + d * 0.2}));
 gallop(T.S12A + 0.15, 3.0, 0.16, {from: -0.6, to: 0.5, env: (x) => Math.min(1, x * 4) * (1 - 0.7 * x)});
-// ---- 丧 · S13–S14: one long mourning, not three cues (director, 2026-10-17: the music died with the princess's shot
+// ---- 丧 · S13–S14: one long mourning, not three cues (producer, 2026-10-17: the music died with the princess's shot
 // and left a hole) ----
 // a low string bed rises under her death, carries the coffin home and the burial, and thins out only over the grave
 strings(T.S13 + 0.2, T.S14A - T.S13 + 2.5, [50, 57, 62], PAD * 0.95, {attack: 2.5, release: 3.0, cutoff: 620, dyn: (t) => smooth(T.S13, T.S13 + 3.5, t) * (1 - 0.55 * smooth(T.S14 + 1, T.S14A + 1.5, t))});
@@ -851,7 +851,7 @@ xiao(T.S13A + 2.7, [[69, 1.5], [67, 0.5], [65, 1], [62, 3.2]], XIAO * 0.52, {bea
 // S14: the funeral on 盘龙冈 — the cadence, its last D held long and dying away into S14A, where it stays as the pedal
 xiao(T.S14 + 1.4, [[65, 1], [62, 1], [60, 1], [62, 5.5, {grace: 3}]], XIAO * 0.62, {beat: 0.8, vib: 0.12, breath: 0.12, dyn: xiaoFade(T.S14 + 4.6, T.S14 + 8.6)});
 harm(T.S14 + 4.6, 74, HARM * 0.45, {len: 6});
-// ---- 疑 · S14A: guests crowd his gate, the king watches — something is about to turn (director, 2026-10-17: the
+// ---- 疑 · S14A: guests crowd his gate, the king watches — something is about to turn (producer, 2026-10-17: the
 // music has to carry a quiet unease here). Over the held D: a thin tremolo where E flat rubs against D, creeping up
 // in loudness; a slow heartbeat on the drum that quickens and grows; the 笙 alone rising to the sour E flat; one low
 // bell on E flat as the narration says the king grew suspicious. It runs straight into the omen's bell (S15). ----

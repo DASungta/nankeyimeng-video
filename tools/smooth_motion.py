@@ -1,6 +1,6 @@
 """Even out a Muse clip's camera move and give it a film shutter's motion blur.
 
-The director found the camera moves in the dream (2026-10-17) looked like a low frame rate. Two causes, both measured:
+The producer found the camera moves in the dream (2026-10-17) looked like a low frame rate. Two causes, both measured:
 - the cadence: Muse's camera moves come in an 8-frame cycle, and in some clips (S08, S13, S15) the last step of each
   cycle is about 30 % longer than the others (a skipped frame), so the move hitches three times a second; in the
   rest it wavers by 5–10 % (S07, S10C, S12B, S12). tools/dejudder.py only catches steps about twice the norm.

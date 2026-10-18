@@ -1,6 +1,6 @@
 // Subtitles, from the Claude doc's 字幕与旁白稿 table (the doc is the source; copy changes here). They are also the
 // voice-over script.
-// Rewritten in plain words 2026-10-16 (director: the film is for people who do not know the story, so it has to be
+// Rewritten in plain words 2026-10-16 (producer: the film is for people who do not know the story, so it has to be
 // understood without it): the original's classical lines are said in everyday Chinese, the dream is called a dream, the
 // reveal says outright that the kingdom was the ant nest, and 「柯」 and the idiom are explained. At most about 5
 // characters a second, so the reading never runs past the picture.
@@ -45,13 +45,13 @@ export const SUBS = {
 		{at: 4.1, text: '国王和满朝权贵出城迎候。'},
 	],
 	S14: '公主葬在城东的盘龙冈。',
-	// S14A: why the crowds after the funeral (director, 2026-10-16): 生久鎮外藩，結好中國，貴門豪族，靡不是洽。自罷郡還國……
+	// S14A: why the crowds after the funeral (producer, 2026-10-16): 生久鎮外藩，結好中國，貴門豪族，靡不是洽。自罷郡還國……
 	// 交遊賓從，威福日盛，王意疑憚之
 	S14A: [
 		{at: 1.0, end: 3.9, text: '他守郡多年，权贵早与他交好；'},
 		{at: 4.1, text: '回京后宾客盈门，国王起了疑心。'},
 	],
-	// S15–S15A: why the omen falls on him (director, 2026-10-17): 玄象謫見，國有大恐，都邑遷徙，宗廟崩壞。釁起他族，事在蕭牆。
+	// S15–S15A: why the omen falls on him (producer, 2026-10-17): 玄象謫見，國有大恐，都邑遷徙，宗廟崩壞。釁起他族，事在蕭牆。
 	// 時議以生侈僭之應也，遂奪生侍衛，禁生遊從，處之私第
 	S15: [
 		{at: 1.0, end: 3.9, text: '有人上书：天象示警，国有大难，'},
@@ -90,7 +90,7 @@ export const SUBS = {
 	],
 };
 
-// The English subtitles (director, 2026-10-17: add English throughout), shown under the Chinese line. Same keys as
+// The English subtitles (producer, 2026-10-17: add English throughout), shown under the Chinese line. Same keys as
 // SUBS: a string for a one-line shot, a list in the same order as the shot's cues. Names in pinyin (Chunyu Fen,
 // Zhou Bian, Tian Zihua, Tanluo, Yaotai); 槐 is the pagoda tree, so 大槐安国 is said once in full as "Peace of the
 // Pagoda Tree", and 南柯 as "Southern Bough", the film's English title. Kept short enough to read at the shot's pace

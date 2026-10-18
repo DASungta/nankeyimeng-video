@@ -5,7 +5,7 @@
    "id": "S00",
    "file": null,
    "dur": 10,
-   "why": "added 2026-10-17 (director: an opening made from the film): the old 槐 as an ink painting on silk (Muse's OP-a, ink reveal baked by tools/make_opening.py), an ant walks into the painted hollow, the title and a seal, then a push into the hollow and a dissolve into S00A's first frame; drawn in src/Film.jsx (Opening); a second, live-action opening (real) was added the same day: src/opening.json picks one, variants gives each its length",
+   "why": "added 2026-10-17 (producer: an opening made from the film): the old 槐 as an ink painting on silk (Muse's OP-a, ink reveal baked by tools/make_opening.py), an ant walks into the painted hollow, the title and a seal, then a push into the hollow and a dissolve into S00A's first frame; drawn in src/Film.jsx (Opening); a second, live-action opening (real) was added the same day: src/opening.json picks one, variants gives each its length",
    "variants": {
     "silk": 10,
     "real": 13.5
@@ -16,7 +16,7 @@
    "file": "muse/S00A-v2-dj.mp4",
    "in": 0.5,
    "dur": 6.5,
-   "why": "added 2026-10-16 (director: open on a close-up of the old 槐 and show the ants first): the camera tilts down the trunk, pinnate leaves drifting past, to the dark hollow between the roots",
+   "why": "added 2026-10-16 (producer: open on a close-up of the old 槐 and show the ants first): the camera tilts down the trunk, pinnate leaves drifting past, to the dark hollow between the roots",
    "voDur": 7.5
   },
   {
@@ -64,21 +64,21 @@
    "file": "muse/S06-v2.mp4",
    "in": 0,
    "dur": 9.5,
-   "why": "reshot 2026-10-16 (director: it must be plain that the cart goes into the old tree in the courtyard, and no extra people): Muse's S06A-v6 from keyframe S06A-e (S06A-d with the attendants taken out), the same courtyard as S00A/S01; the camera follows the cart and the two messengers across the courtyard and into the hollow at the roots; fully black from 8.5 s"
+   "why": "reshot 2026-10-16 (producer: it must be plain that the cart goes into the old tree in the courtyard, and no extra people): Muse's S06A-v6 from keyframe S06A-e (S06A-d with the attendants taken out), the same courtyard as S00A/S01; the camera follows the cart and the two messengers across the courtyard and into the hollow at the roots; fully black from 8.5 s"
   },
   {
    "id": "S07",
    "file": "muse/S07-v1-sm.mp4",
    "in": 0,
    "dur": 5,
-   "why": "Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S08",
    "file": "muse/S08-v1-text-sm.mp4",
    "in": 4,
    "dur": 5,
-   "why": "ends on the plaque; 大槐安國 tracked onto it by tools/plaque_text.py Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "ends on the plaque; 大槐安國 tracked onto it by tools/plaque_text.py Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S09",
@@ -97,7 +97,7 @@
    "file": "muse/S10B-v1.mp4",
    "in": 0,
    "dur": 4,
-   "why": "added 2026-10-16 (director: expand the twenty years): at the wedding feast he meets his old drinking friends 周弁 (purple) and 田子华 (green); sets up 周弁's defeat in S12A",
+   "why": "added 2026-10-16 (producer: expand the twenty years): at the wedding feast he meets his old drinking friends 周弁 (purple) and 田子华 (green); sets up 周弁's defeat in S12A",
    "voDur": 4.75
   },
   {
@@ -105,7 +105,7 @@
    "file": "muse/S10C-v1-sm.mp4",
    "in": 0,
    "dur": 5,
-   "why": "added 2026-10-16: the great hunt at 灵龟山 with the king, the camera panning like a scroll unrolling Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "added 2026-10-16: the great hunt at 灵龟山 with the king, the camera panning like a scroll unrolling Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S10A",
@@ -134,14 +134,14 @@
    "file": "muse/S12B-v1-sm.mp4",
    "in": 0,
    "dur": 5,
-   "why": "added 2026-10-17 (director: the invasion needs the enemy on screen): the 檀萝 army, vine-patterned banners and shields, marches out of the valley towards 瑶台城; marching only, no fighting (Muse refuses battles) Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "added 2026-10-17 (producer: the invasion needs the enemy on screen): the 檀萝 army, vine-patterned banners and shields, marches out of the valley towards 瑶台城; marching only, no fighting (Muse refuses battles) Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S12",
    "file": "muse/S12-v2-sm.mp4",
    "in": 4,
    "dur": 5,
-   "why": "vines already spreading Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "vines already spreading Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S12A",
@@ -156,14 +156,14 @@
    "file": "muse/S13-v1-sm.mp4",
    "in": 4,
    "dur": 6,
-   "why": "candle dies to black; 6 s (2026-10-17, director: the stretch from her death to the king's suspicion was too rushed) Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "candle dies to black; 6 s (2026-10-17, producer: the stretch from her death to the king's suspicion was too rushed) Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S13A",
    "file": "muse/S13A-v5.mp4",
    "in": 0.25,
    "dur": 7,
-   "why": "added 2026-10-17: he brings the coffin back to the capital, the king, queen and court bow at the roadside (辭守郡，護喪赴國……王與夫人素衣哭於郊). Redone the same day (director: is this leaving or entering the city? the first versions had the procession in profile and read as walking backwards): keyframe S13A-g is a view from behind the hearse down a straight road to the city gate, every horse and person in the procession has their back to us, the king and queen in white and the court bow on both sides. Muse's S13A-v5 (camera locked off): the hearse and his horse move steadily away towards the gate (optical flow: upward and shrinking all through 0-6.5 s, no skips, no cuts)",
+   "why": "added 2026-10-17: he brings the coffin back to the capital, the king, queen and court bow at the roadside (辭守郡，護喪赴國……王與夫人素衣哭於郊). Redone the same day (producer: is this leaving or entering the city? the first versions had the procession in profile and read as walking backwards): keyframe S13A-g is a view from behind the hearse down a straight road to the city gate, every horse and person in the procession has their back to us, the king and queen in white and the court bow on both sides. Muse's S13A-v5 (camera locked off): the hearse and his horse move steadily away towards the gate (optical flow: upward and shrinking all through 0-6.5 s, no skips, no cuts)",
    "voDur": 7.75
   },
   {
@@ -171,7 +171,7 @@
    "file": "muse/S14-v1-dj-sm.mp4",
    "in": 4.75,
    "dur": 6,
-   "why": "ends centred on the grave, matches S24; 5 s (2026-10-17) for the line about the burial Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
+   "why": "ends centred on the grave, matches S24; 5 s (2026-10-17) for the line about the burial Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged."
   },
   {
    "id": "S14A",
@@ -186,7 +186,7 @@
    "file": "muse/S15-v1-sm.mp4",
    "in": 0,
    "dur": 7,
-   "why": "7 s for the omen in two lines, why it falls on him (2026-10-17); the platform leaves the frame after about 8 s Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged.",
+   "why": "7 s for the omen in two lines, why it falls on him (2026-10-17); the platform leaves the frame after about 8 s Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py evens out Muse's 8-frame cadence and adds a 180-degree shutter's motion blur; frame count and timing unchanged.",
    "maxDur": 8.25,
    "maxWhy": "the platform and the men on it leave the frame soon after",
    "voDur": 8.25
@@ -204,7 +204,7 @@
    "file": "muse/S16-v2.mp4",
    "in": 0,
    "dur": 5,
-   "why": "reshot 2026-10-17 (director: he must kneel facing the king): keyframe S16-c, his back to us, bowing to the king far off on the dais; he sits up again after 6 s",
+   "why": "reshot 2026-10-17 (producer: he must kneel facing the king): keyframe S16-c, his back to us, bowing to the king far off on the dais; he sits up again after 6 s",
    "voDur": 7.5
   },
   {
@@ -212,17 +212,17 @@
    "file": "muse/S17-v4-sm.mp4",
    "in": 5.6,
    "dur": 4,
-   "why": "reshot 2026-10-16 (director: only he is on the broken cart): keyframe S17-d, the camera follows the cart into the light; full white from about 9.4 s; Film.jsx also fades the last 0.8 s to white. Smoothed 2026-10-17 (director: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py keeps the timing (the corridor walls move with too much parallax to measure the step) and only adds a 180-degree shutter's motion blur; frame count and timing unchanged.",
+   "why": "reshot 2026-10-16 (producer: only he is on the broken cart): keyframe S17-d, the camera follows the cart into the light; full white from about 9.4 s; Film.jsx also fades the last 0.8 s to white. Smoothed 2026-10-17 (producer: the camera moves in the dream looked like a low frame rate): tools/smooth_motion.py keeps the timing (the corridor walls move with too much parallax to measure the step) and only adds a 180-degree shutter's motion blur; frame count and timing unchanged.",
    "voDur": 5.25,
    "holdWhite": true,
-   "holdWhy": "with the voice-over S17 may run past its clip: the clip ends in full white, and src/Film.jsx (HOLD_WHITE) holds that white so the line lands before he wakes (director, 2026-10-18)"
+   "holdWhy": "with the voice-over S17 may run past its clip: the clip ends in full white, and src/Film.jsx (HOLD_WHITE) holds that white so the line lands before he wakes (producer, 2026-10-18)"
   },
   {
    "id": "S20",
    "file": "muse/S20-v2.mp4",
    "in": 1,
    "dur": 4,
-   "why": "the waking opens on the cup, as the falling asleep (S04) closed on it: out of the white of S17, the friends laughing as they wash their feet (director, 2026-10-16; trimmed to 4 s from 1 s in, so the splash shows as the white clears); then the camera finds him asleep (S18) and the call wakes him (S18A)",
+   "why": "the waking opens on the cup, as the falling asleep (S04) closed on it: out of the white of S17, the friends laughing as they wash their feet (producer, 2026-10-16; trimmed to 4 s from 1 s in, so the splash shows as the white clears); then the camera finds him asleep (S18) and the call wakes him (S18A)",
    "voDur": 4.75
   },
   {
@@ -237,14 +237,14 @@
    "file": "muse/S18A-v3.mp4",
    "in": 3.2,
    "dur": 3,
-   "why": "his eyes, in the same pose as S18 (Muse made it from S18's last frame, muse/S18A-start.jpg); cut in from S18 at 1.25x (src/Film.jsx PUSH); starts 0.25 s before his eyes snap open (director, 2026-10-16: open them as soon as the camera has closed in), then 2.6 s of them darting; then S21"
+   "why": "his eyes, in the same pose as S18 (Muse made it from S18's last frame, muse/S18A-start.jpg); cut in from S18 at 1.25x (src/Film.jsx PUSH); starts 0.25 s before his eyes snap open (producer, 2026-10-16: open them as soon as the camera has closed in), then 2.6 s of them darting; then S21"
   },
   {
    "id": "S21",
    "file": "muse/S21-v6.mp4",
    "in": 0,
    "dur": 5.5,
-   "why": "reshot 2026-10-17 (director: the faces did not match S18A): keyframe S21-o, S21-i with the three faces redone (his beard and weathered face as in S18A/S27); he pulls the rotten wood away from the same hole by hand and turns to his friends. Servants opening the hole with axes, hoes or shovels were refused by the platform in both stills and video. Before 5.5 s, while his face still matches",
+   "why": "reshot 2026-10-17 (producer: the faces did not match S18A): keyframe S21-o, S21-i with the three faces redone (his beard and weathered face as in S18A/S27); he pulls the rotten wood away from the same hole by hand and turns to his friends. Servants opening the hole with axes, hoes or shovels were refused by the platform in both stills and video. Before 5.5 s, while his face still matches",
    "maxDur": 5.5,
    "maxWhy": "his face stops matching S18A after 5.5 s"
   },
@@ -288,7 +288,7 @@
    "file": "muse/S26A-v4.mp4",
    "in": 0,
    "dur": 3.7,
-   "why": "reshot 2026-10-16 (director: the three people did not match): keyframe S26A-h; the clip cuts to a closer framing at frame 90 (3.75 s), so the shot ends before it. The dejuddered copy put a blended frame on that cut (director, 2026-10-17: a ghost frame at 3:07), so the original is used",
+   "why": "reshot 2026-10-16 (producer: the three people did not match): keyframe S26A-h; the clip cuts to a closer framing at frame 90 (3.75 s), so the shot ends before it. The dejuddered copy put a blended frame on that cut (producer, 2026-10-17: a ghost frame at 3:07), so the original is used",
    "maxDur": 3.7,
    "maxWhy": "the clip cuts to a closer framing at 3.75 s"
   },
@@ -297,7 +297,7 @@
    "file": "muse/S27-v1-sm.mp4",
    "in": 0,
    "dur": 6,
-   "why": "Smoothed 2026-10-17 (director asked for the last rising shot too): Muse's 8-frame cadence made every 8th step 21-31 % longer in the first 3 s; tools/smooth_motion.py --measure ratio --shutter 0 evens it out (the near tree and the far buildings move at different speeds, so the step is measured pixel by pixel against its neighbours; no blur added, the live-action frames already have their own). Timing unchanged.",
+   "why": "Smoothed 2026-10-17 (producer asked for the last rising shot too): Muse's 8-frame cadence made every 8th step 21-31 % longer in the first 3 s; tools/smooth_motion.py --measure ratio --shutter 0 evens it out (the near tree and the far buildings move at different speeds, so the step is measured pixel by pixel against its neighbours; no blur added, the live-action frames already have their own). Timing unchanged.",
    "voDur": 8.25
   },
   {

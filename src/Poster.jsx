@@ -1,4 +1,4 @@
-// 《南柯一梦》 posters (2026-10-17, the director asked for stills and posters in the manner of films). Portrait 2:3,
+// 《南柯一梦》 posters (2026-10-17, the producer asked for stills and posters in the manner of films). Portrait 2:3,
 // 2000x3000, rendered as stills: npx remotion still src/index.jsx PosterMain posters/poster-main.png (and PosterDream,
 // PosterTeaser). The art is Muse's (public/posters/*.webp, chosen from its PA, PB, PC); the lettering is laid on here,
 // the way Chinese film posters set theirs: the title in brush calligraphy (the opening's, tools/make_title.py) or, on
@@ -129,7 +129,7 @@ export const PosterTeaser = () => (
 	</AbsoluteFill>
 );
 
-// 视频封面 (2026-10-17, the director asked for a 16:9 and a 4:3 cover): the main poster's picture laid out sideways by
+// 视频封面 (2026-10-17, the producer asked for a 16:9 and a 4:3 cover): the main poster's picture laid out sideways by
 // Muse (art-cover-169 / art-cover-43), the title large in ink on the pale silk of the empty left part so it still
 // reads as a thumbnail, the English title and the tagline under it. Placement in each cover's own pixels.
 // cols: the tagline as two inscribed columns instead of one line, {x: first column's centre, y: its top, size, gap}.
@@ -170,7 +170,7 @@ export const Cover43 = () => (
 	</AbsoluteFill>
 );
 
-// The Bilibili cover (2026-10-17, the director asked for one "like Bilibili's hits"). The hits in this genre (AI 国风
+// The Bilibili cover (2026-10-17, the producer asked for one "like Bilibili's hits"). The hits in this genre (AI 国风
 // shorts, idiom stories) share a manner: one cinematic, high-contrast picture with a face or a striking subject, and a
 // two-line hook in huge heavy type, white and yellow with a black edge, plus a small tag. Bilibili's upload cover is 4:3
 // (shown so on the phone home feed) and is cut to 16:9 / 16:10 elsewhere, and the feed lays the play count and the
@@ -199,7 +199,7 @@ const Heavy = ({children, size, color = '#fff', edge = 0.17, style}) => {
 	);
 };
 const Y = ({children}) => <span style={{color: '#ffd23a'}}>{children}</span>;
-// tag: the red label, placed on its own (dropped 2026-10-18, the director's call; the component stays); credit + hook: one block from (x, y); title: the opening's brush title, in ink
+// tag: the red label, placed on its own (dropped 2026-10-18, the producer's call; the component stays); credit + hook: one block from (x, y); title: the opening's brush title, in ink
 // on the silk (dark) or in its own cream on dark ground; shade: an optional soft dark pool behind the hook
 const Tag = ({x, y, size}) => (
 	<div style={{position: 'absolute', left: x, top: y, padding: `${size * 0.22}px ${size * 0.5}px`, borderRadius: size * 0.3, background: '#c4201c', color: '#fff6e6', fontFamily: HEAVY, fontWeight: 700, fontSize: size, letterSpacing: '0.12em', whiteSpace: 'nowrap', boxShadow: '0 4px 12px rgba(0,0,0,0.35)'}}>唐传奇 · AI 国风电影</div>
@@ -209,7 +209,7 @@ const BiliText = ({x, y, size, credit = 54, tag, title, shade}) => (
 		{shade ? <div style={{position: 'absolute', inset: 0, background: `radial-gradient(ellipse ${shade.rx}px ${shade.ry}px at ${shade.x}px ${shade.y}px, rgba(8,5,3,${shade.a}), rgba(8,5,3,0) 100%)`}} /> : null}
 		{tag ? <Tag {...tag} /> : null}
 		<div style={{position: 'absolute', left: x, top: y}}>
-			{/* who made it, the director asked for both names on the cover: Opus directed, Muse shot it */}
+			{/* who made it, the producer asked for both names on the cover: Opus directed, Muse shot it */}
 			<Heavy size={credit}><Y>Opus 5.5</Y> 导演 × <Y>Muse</Y> 摄影</Heavy>
 			<Heavy size={size} style={{marginTop: size * 0.1}}>梦里当了<Y><span style={{fontSize: size * 1.18}}>20</span>年</Y>驸马</Heavy>
 			<Heavy size={size * 1.12} style={{marginTop: size * 0.04}}>醒来竟是<Y>蚂蚁窝</Y></Heavy>
@@ -222,7 +222,7 @@ const BiliText = ({x, y, size, credit = 54, tag, title, shade}) => (
 		) : null}
 	</>
 );
-// The art is Muse's CV-W-a, the director's choice (2026-10-18): the painting whole, the dream city and its procession in
+// The art is Muse's CV-W-a, the producer's choice (2026-10-18): the painting whole, the dream city and its procession in
 // the tree's crown, the sleeper and the spilt cup below. 4:3: the painting at the foot, under a band of its own silk
 // (art-bili-43.webp, made by tools/make_bili_plate.py), the lettering on the silk. 16:9: the painting full bleed, the
 // hook over the mist, the low wall and the bare ground left of the couch, the title in the clean sky at top left.

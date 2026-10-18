@@ -28,7 +28,7 @@ import voice from './voice.json';
 export const FPS = clips.fps;
 const XF = 12; // dissolve inside the dream, frames
 // slower dissolves (frames) into these shots: from the princess's death to the king's suspicion the story moves through
-// several turns in a few shots, and half-second dissolves made it feel rushed (director, 2026-10-17)
+// several turns in a few shots, and half-second dissolves made it feel rushed (producer, 2026-10-17)
 const XF_INTO = {S13A: 30, S14: 30, S14A: 30, S15: 30};
 const xfInto = (id) => XF_INTO[id] ?? XF;
 const DREAM = new Set(['S07', 'S08', 'S09', 'S10', 'S10B', 'S10C', 'S10A', 'S11', 'S11A', 'S12B', 'S12', 'S12A', 'S13', 'S13A', 'S14', 'S14A', 'S15', 'S15A', 'S16', 'S17']);
@@ -37,7 +37,7 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'};
 // differently moving AI camera moves dissolving into each other read as a stutter, so S18→S18A is now a cut-in)
 const LEAD_IN = {};
 // shots that may run past their clip, holding the white they end on: S17, the cart into the light (with the voice-over
-// its line needs a moment to land before he wakes, director 2026-10-18, and the clip has nothing more after its white)
+// its line needs a moment to land before he wakes, producer 2026-10-18, and the clip has nothing more after its white)
 const HOLD_WHITE = new Set(['S17']);
 
 let acc = 0;
@@ -211,7 +211,7 @@ const Rain = ({flash}) => {
 // ---------- name seals: introducing the people, as a film introduces its cast ----------
 // A vermilion seal with the name cut in white is stamped beside each person the first time we meet him: his two
 // drinking friends 周弁 and 田子华 under the tree (S01), 淳于棼 in his close-up (S02), and the same two seals again
-// on the friends he meets at the wedding feast in the dream (S10B), so the two meetings read as one (director,
+// on the friends he meets at the wedding feast in the dream (S10B), so the two meetings read as one (producer,
 // 2026-10-16). Names in traditional characters, like the plaques. `track` is the head of the person in the clip,
 // [seconds into the shot, x, y] as fractions of the frame, read off gridded frames; the seal sits `gap` to his
 // left (side -1) or right (side 1), centred on his head, and follows him through the camera move.
@@ -380,7 +380,7 @@ const Subtitle = () => {
 				>
 					{c.line}
 					{c.by ? <span style={{fontSize: 34, marginLeft: 26, color: '#ddd0b4'}}>——{c.by}</span> : null}
-					{/* the English, smaller, under the Chinese (director, 2026-10-17) */}
+					{/* the English, smaller, under the Chinese (producer, 2026-10-17) */}
 					{c.en ? <div style={{marginTop: 6, fontFamily: "'Times New Roman', Georgia, serif", fontSize: 31, lineHeight: 1.25, letterSpacing: '0.01em', color: '#e8dfca'}}>{c.en}</div> : null}
 				</div>
 			) : null}
@@ -396,7 +396,7 @@ const Title = () => {
 	return (
 		<AbsoluteFill style={{background: '#050505', alignItems: 'center', justifyContent: 'center'}}>
 			<div style={{fontFamily: KAI, fontSize: 132, letterSpacing: '0.32em', paddingLeft: '0.32em', color: '#e6d6b0', opacity: interpolate(f, [6, 34], [0, 1], clamp) * out}}>南柯一梦</div>
-			{/* what the idiom means, for those who meet it here first (director, 2026-10-16) */}
+			{/* what the idiom means, for those who meet it here first (producer, 2026-10-16) */}
 			<div style={{marginTop: 14, fontFamily: "'Times New Roman', Georgia, serif", fontSize: 30, letterSpacing: '0.36em', paddingLeft: '0.36em', color: '#c9bb9b', opacity: interpolate(f, [16, 44], [0, 1], clamp) * out}}>A DREAM UNDER THE SOUTHERN BOUGH</div>
 			<div style={{marginTop: 46, fontFamily: KAI, fontSize: 44, letterSpacing: '0.1em', color: '#d8c9a6', opacity: interpolate(f, [30, 58], [0, 1], clamp) * out}}>后来，人们用这四个字比喻一场空欢喜的大梦</div>
 			<div style={{marginTop: 8, fontFamily: "'Times New Roman', Georgia, serif", fontSize: 30, color: '#cdbf9f', opacity: interpolate(f, [30, 58], [0, 1], clamp) * out}}>Ever since, “a dream under the southern bough” has meant a grand dream of joy that comes to nothing.</div>
@@ -407,7 +407,7 @@ const Title = () => {
 };
 
 // ---------- the opening ----------
-// Before the story (S00; added 2026-10-17, the director asked for an opening made from the film's own material):
+// Before the story (S00; added 2026-10-17, the producer asked for an opening made from the film's own material):
 // bare silk; the old 槐 of the courtyard soaks into it as an ink painting, from the hollow at its roots outwards
 // (Muse's OP-a; the reveal is baked by tools/make_opening.py); a small ink ant comes up from the bottom of the silk,
 // stops, and walks into the painted hollow, as the ants will in S00B and he will in S06; the title inks in down the
@@ -590,15 +590,15 @@ const Opening = () => {
 };
 
 // ---------- the opening, live action ----------
-// The second opening (2026-10-17, the director asked for a realistic one in the manner of good Chinese films, with the
+// The second opening (2026-10-17, the producer asked for a realistic one in the manner of good Chinese films, with the
 // film's title), chosen by src/opening.json. A cold open the way 侯孝贤 opens 《刺客聂隐娘》: two still, quiet shots
 // with only their own sound, a lone ant climbing the furrowed bark of the old 槐 in the low sun (OR1), backlit 槐
 // leaves in a shaft of dusty light, one yellowed leaflet letting go (OR2); then black, and the title card the way
 // 《一代宗师》 and 《卧虎藏龙》 set theirs: the four characters large in brush calligraphy on black (Muse wrote them,
 // tools/make_title.py lifts the ink off the paper), a vermilion seal, the English title small beneath, the source;
 // one deep note. S00A then comes up out of the black. Times from src/cues.json (openingReal).
-// Tightened the same day (director: more compact; 15 s down to 11.5) and given opening credits over the two shots.
-// Then (director: put the credits a real film's opening would show, in the right roles; I am dasungta; and English
+// Tightened the same day (producer: more compact; 15 s down to 11.5) and given opening credits over the two shots.
+// Then (producer: put the credits a real film's opening would show, in the right roles; I am dasungta; and English
 // throughout) the cast list the way Chinese films open: the presenter and producer first, the heads of department,
 // the director last, just before the title, each role with its English beneath. dasungta set the project going and
 // had the final say on every cut (出品人 · 制片人); Opus 5.5 wrote and edited it and made the music and the sound; Muse

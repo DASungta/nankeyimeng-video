@@ -33,11 +33,11 @@ UNDER = 11.0  # dB the score is kept below the voice while it speaks (but never 
 GAP = 0.12  # s between a line and the one it follows
 PUNCT = set('，。、；：！？—…“”‘’《》（）,.;:!? ')
 
-# EQ and dynamics per voice. The narrator thicker, as in a history documentary (director, 2026-10-18): voice and
+# EQ and dynamics per voice. The narrator thicker, as in a history documentary (producer, 2026-10-18): voice and
 # formants 7 % lower (about 1.25 semitones; asetrate, and atempo keeps the length), more chest (120 and 250 Hz), less
 # box (550 Hz), and the presence and some air given back (2.5 kHz, above 5 kHz): the reference voice is so soft that
 # hardly anything above 4 kHz comes out of the clone, which reads as muffled rather than full. The king: an old emperor
-# (director, 2026-10-18, picked A of four: like the emperors of the court dramas), a voice designed from the style
+# (producer, 2026-10-18, picked A of four: like the emperors of the court dramas), a voice designed from the style
 # alone, very slow with drawn-out endings, 8 % lower, and a slight shake (FX). The others just cleaned.
 CHAIN = {
 	'narrator': 'asetrate=44640,aresample=48000,atempo=1.0752688,highpass=f=55,equalizer=f=120:t=q:w=0.9:g=5,equalizer=f=250:t=q:w=1.0:g=3,equalizer=f=550:t=q:w=1.2:g=-2,equalizer=f=2500:t=q:w=1.0:g=2.5,highshelf=f=5000:g=4,acompressor=threshold=0.1:ratio=3:attack=10:release=150:makeup=1',
@@ -45,7 +45,7 @@ CHAIN = {
 	'king': 'asetrate=44160,aresample=48000,atempo=1.0869565,highpass=f=70,equalizer=f=180:t=q:w=0.9:g=2,acompressor=threshold=0.1:ratio=2.5:attack=8:release=120',
 	'chunyu': 'highpass=f=80,acompressor=threshold=0.1:ratio=2.5:attack=8:release=120',
 }
-# the line's place in the story. The messenger's three lines are one voice in one room (director, 2026-10-18: the
+# the line's place in the story. The messenger's three lines are one voice in one room (producer, 2026-10-18: the
 # calls must sound like the man who invites him): the same small room on all three, the call in the dark only a
 # little further off, the call from the dream with a short echo after it.
 ROOM = 'aecho=0.8:0.85:35|80:0.12|0.07'
