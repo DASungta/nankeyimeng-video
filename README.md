@@ -6,6 +6,8 @@
 
 出品人、制片人 **dasungta** · 编剧、剪辑、音乐、导演 **Opus 5.5**（Claude Code） · 摄影、美术 **Muse**（muse.ai）
 
+**看成片**：[B站](https://www.bilibili.com/video/BV1yQn36fESo) · [X](https://x.com/dasungta_zhang/status/2111475175967584425)
+
 ![海报：正式海报、梦境海报、先导海报](posters/posters-overview.jpg)
 
 ![剧照九张](stills/stills-contact-sheet.jpg)
