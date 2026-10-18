@@ -1,0 +1,55 @@
+{
+ "_": "Media kept out of git. tools/pack_assets.py writes this; tools/fetch_assets.py downloads, checks and unpacks it.",
+ "release": "https://github.com/DASungta/nankeyimeng-video/releases/tag/assets-v1",
+ "download": "https://github.com/DASungta/nankeyimeng-video/releases/download/assets-v1/",
+ "files": [
+  {
+   "name": "nanke-muse.zip",
+   "bytes": 663598121,
+   "sha256": "7ae0ab6682dd3405d451b7ff3cc2660e5ef6bcf3db60eaecf0f3c734e5888abd",
+   "required": true,
+   "unzip": true,
+   "desc": "Muse 的设定图、定稿关键帧和视频（含补帧、拉匀、题字、合成后的版本），配音的全部录音和参考声音"
+  },
+  {
+   "name": "nanke-public.zip",
+   "bytes": 63308752,
+   "sha256": "bfadb5e478d28188fae2ba59048a9a494fd03f3146faf3537b33473171030a17",
+   "required": true,
+   "unzip": true,
+   "desc": "片头素材、海报和封面的底图、字体"
+  },
+  {
+   "name": "nanke-muse-alt.zip",
+   "bytes": 418646778,
+   "sha256": "0e77ba23450c5b2597832cda7498a687a337a4f8050cddda37b643f676055aae",
+   "required": false,
+   "unzip": true,
+   "desc": "候选和落选的图与视频（审片记录里提到的 alt 版本）"
+  },
+  {
+   "name": "nanke-posters-png.zip",
+   "bytes": 49773421,
+   "sha256": "7d3959c234c1b527ed145ae4e2631c3a687533d3443b89a91e7345d757685312",
+   "required": false,
+   "unzip": true,
+   "desc": "海报和封面的 PNG 原图，含第一版 B站封面"
+  },
+  {
+   "name": "nanke-vo.mp4",
+   "bytes": 363939491,
+   "sha256": "5ed5badea537f1e0efbabdd5c5ba13673f325fa38bdae513228f99ff1b146fd7",
+   "required": false,
+   "unzip": false,
+   "desc": "成片，配音版（244.7 秒）"
+  },
+  {
+   "name": "nanke.mp4",
+   "bytes": 334600033,
+   "sha256": "c4c76ba7225ddf37a663663da61bce3b1c5b43a38b06b81b75a52b34c27b9df1",
+   "required": false,
+   "unzip": false,
+   "desc": "成片，无配音版（222.7 秒）"
+  }
+ ]
+}

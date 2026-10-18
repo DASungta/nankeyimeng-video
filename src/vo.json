@@ -1,0 +1,629 @@
+{
+ "_": "voice-over lines placed by tools/vo_place.py: seconds into the shot; cue = the subtitle cue it says; duck = how far the score goes down under the line",
+ "lines": [
+  {
+   "id": "S00A-1",
+   "shot": "S00A",
+   "cue": 0,
+   "at": 0.85,
+   "dur": 2.66,
+   "file": "vo/S00A-1.wav",
+   "duck": 0.602,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S00A-2",
+   "shot": "S00A",
+   "cue": 1,
+   "at": 3.81,
+   "dur": 3.17,
+   "file": "vo/S00A-2.wav",
+   "duck": 0.483,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S00B",
+   "shot": "S00B",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.18,
+   "file": "vo/S00B.wav",
+   "duck": 0.547,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S01",
+   "shot": "S01",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.58,
+   "file": "vo/S01.wav",
+   "duck": 0.446,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S02",
+   "shot": "S02",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 5.0,
+   "file": "vo/S02.wav",
+   "duck": 0.402,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S03",
+   "shot": "S03",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 4.55,
+   "file": "vo/S03.wav",
+   "duck": 0.525,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S04",
+   "shot": "S04",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 1.38,
+   "file": "vo/S04.wav",
+   "duck": 1.0,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S05-1",
+   "shot": "S05",
+   "cue": 0,
+   "at": 0.6,
+   "dur": 0.93,
+   "file": "vo/S05-1.wav",
+   "duck": 0.517,
+   "take": [
+    4
+   ]
+  },
+  {
+   "id": "S05-2",
+   "shot": "S05",
+   "cue": 1,
+   "at": 5.15,
+   "dur": 1.77,
+   "file": "vo/S05-2.wav",
+   "duck": 0.467,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S06-1",
+   "shot": "S06",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 5.11,
+   "file": "vo/S06-1.wav",
+   "duck": 0.585,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S06-2",
+   "shot": "S06",
+   "cue": 1,
+   "at": 5.76,
+   "dur": 1.81,
+   "file": "vo/S06-2.wav",
+   "duck": 0.428,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S07",
+   "shot": "S07",
+   "cue": 0,
+   "at": 0.9,
+   "dur": 3.41,
+   "file": "vo/S07.wav",
+   "duck": 0.302,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S08",
+   "shot": "S08",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.58,
+   "file": "vo/S08.wav",
+   "duck": 0.288,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S09",
+   "shot": "S09",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 2.66,
+   "file": "vo/S09.wav",
+   "duck": 0.22,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S10",
+   "shot": "S10",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 2.79,
+   "file": "vo/S10.wav",
+   "duck": 0.298,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S10B",
+   "shot": "S10B",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 4.03,
+   "file": "vo/S10B.wav",
+   "duck": 0.369,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S10C",
+   "shot": "S10C",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 2.66,
+   "file": "vo/S10C.wav",
+   "duck": 0.325,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S10A",
+   "shot": "S10A",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 4.03,
+   "file": "vo/S10A.wav",
+   "duck": 0.22,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S11",
+   "shot": "S11",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 5.07,
+   "file": "vo/S11.wav",
+   "duck": 0.251,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S11A",
+   "shot": "S11A",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 4.86,
+   "file": "vo/S11A.wav",
+   "duck": 0.228,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S12B",
+   "shot": "S12B",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.32,
+   "file": "vo/S12B.wav",
+   "duck": 0.22,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S12",
+   "shot": "S12",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.2,
+   "file": "vo/S12.wav",
+   "duck": 0.22,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S12A",
+   "shot": "S12A",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.03,
+   "file": "vo/S12A.wav",
+   "duck": 0.333,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S13",
+   "shot": "S13",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 1.84,
+   "file": "vo/S13.wav",
+   "duck": 0.296,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S13A-1",
+   "shot": "S13A",
+   "cue": 0,
+   "at": 1.05,
+   "dur": 3.03,
+   "file": "vo/S13A-1.wav",
+   "duck": 0.257,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S13A-2",
+   "shot": "S13A",
+   "cue": 1,
+   "at": 4.38,
+   "dur": 2.98,
+   "file": "vo/S13A-2.wav",
+   "duck": 0.283,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S14",
+   "shot": "S14",
+   "cue": 0,
+   "at": 1.15,
+   "dur": 2.72,
+   "file": "vo/S14.wav",
+   "duck": 0.333,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S14A-1",
+   "shot": "S14A",
+   "cue": 0,
+   "at": 1.05,
+   "dur": 3.06,
+   "file": "vo/S14A-1.wav",
+   "duck": 0.495,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S14A-2",
+   "shot": "S14A",
+   "cue": 1,
+   "at": 4.41,
+   "dur": 3.17,
+   "file": "vo/S14A-2.wav",
+   "duck": 0.374,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S15-1",
+   "shot": "S15",
+   "cue": 0,
+   "at": 0.8,
+   "dur": 3.14,
+   "file": "vo/S15-1.wav",
+   "duck": 0.22,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S15-2",
+   "shot": "S15",
+   "cue": 1,
+   "at": 4.24,
+   "dur": 4.15,
+   "file": "vo/S15-2.wav",
+   "duck": 0.249,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S15A-1",
+   "shot": "S15A",
+   "cue": 0,
+   "at": 0.45,
+   "dur": 3.06,
+   "file": "vo/S15A-1.wav",
+   "duck": 0.772,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S15A-2",
+   "shot": "S15A",
+   "cue": 1,
+   "at": 3.81,
+   "dur": 2.78,
+   "file": "vo/S15A-2.wav",
+   "duck": 0.694,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S16-1",
+   "shot": "S16",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 1.04,
+   "file": "vo/S16-1.wav",
+   "duck": 1.0,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S16-2",
+   "shot": "S16",
+   "cue": 0,
+   "at": 1.51,
+   "dur": 5.46,
+   "file": "vo/S16-2.wav",
+   "duck": 0.91,
+   "take": [
+    5
+   ]
+  },
+  {
+   "id": "S17",
+   "shot": "S17",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.71,
+   "file": "vo/S17.wav",
+   "duck": 0.275,
+   "take": [
+    4
+   ]
+  },
+  {
+   "id": "S20",
+   "shot": "S20",
+   "cue": 0,
+   "at": 0.9,
+   "dur": 3.49,
+   "file": "vo/S20.wav",
+   "duck": 1.0,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S18-1",
+   "shot": "S18",
+   "cue": 0,
+   "at": 0.45,
+   "dur": 2.16,
+   "file": "vo/S18-1.wav",
+   "duck": 1.0,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S18-2",
+   "shot": "S18",
+   "cue": 1,
+   "at": 2.91,
+   "dur": 2.32,
+   "file": "vo/S18-2.wav",
+   "duck": 1.0,
+   "take": [
+    4
+   ]
+  },
+  {
+   "id": "S18A",
+   "shot": "S18A",
+   "cue": 0,
+   "at": 0.75,
+   "dur": 1.35,
+   "file": "vo/S18A.wav",
+   "duck": 1.0,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S21-1",
+   "shot": "S21",
+   "cue": 0,
+   "at": 0.25,
+   "dur": 3.51,
+   "file": "vo/S21-1.wav",
+   "duck": 0.712,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S21-3",
+   "shot": "S21",
+   "cue": 1,
+   "at": 4.06,
+   "dur": 1.73,
+   "file": "vo/S21-3.wav",
+   "duck": 0.781,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S22-1",
+   "shot": "S22",
+   "cue": 0,
+   "at": 0.59,
+   "dur": 3.69,
+   "file": "vo/S22-1.wav",
+   "duck": 0.275,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S22-2",
+   "shot": "S22",
+   "cue": 1,
+   "at": 4.58,
+   "dur": 3.5,
+   "file": "vo/S22-2.wav",
+   "duck": 0.461,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S23",
+   "shot": "S23",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 4.48,
+   "file": "vo/S23.wav",
+   "duck": 0.778,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S24",
+   "shot": "S24",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 3.19,
+   "file": "vo/S24.wav",
+   "duck": 0.343,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S25",
+   "shot": "S25",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 2.49,
+   "file": "vo/S25.wav",
+   "duck": 0.346,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S26",
+   "shot": "S26",
+   "cue": 0,
+   "at": 0.35,
+   "dur": 5.06,
+   "file": "vo/S26.wav",
+   "duck": 0.649,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S26A",
+   "shot": "S26A",
+   "cue": 0,
+   "at": 0.15,
+   "dur": 4.21,
+   "file": "vo/S26A.wav",
+   "duck": 0.459,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S27-1",
+   "shot": "S27",
+   "cue": 0,
+   "at": 0.952,
+   "dur": 3.43,
+   "file": "vo/S27-1.wav",
+   "duck": 0.367,
+   "take": [
+    1
+   ]
+  },
+  {
+   "id": "S27-2",
+   "shot": "S27",
+   "cue": 1,
+   "at": 4.682,
+   "dur": 3.08,
+   "file": "vo/S27-2.wav",
+   "duck": 0.225,
+   "take": [
+    2
+   ]
+  },
+  {
+   "id": "S28",
+   "shot": "S28",
+   "cue": 0,
+   "at": 1.4,
+   "dur": 5.02,
+   "file": "vo/S28.wav",
+   "duck": 0.744,
+   "take": [
+    2
+   ]
+  }
+ ]
+}

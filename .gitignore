@@ -1,0 +1,30 @@
+# 依赖和成片
+node_modules/
+out/
+
+# Muse 素材（关键帧、视频、配音录音）放在 GitHub Release，见 README 的“素材下载”
+# 仓库里只留配音台词表 muse/vo/lines.json
+muse/*
+!muse/vo/
+muse/vo/*
+!muse/vo/lines.json
+
+# 由工具生成，或者放在素材包里
+public/clips/
+public/vo/
+public/music.wav
+public/opening/
+public/posters/
+public/fonts/*.ttf
+
+# 海报和封面只提交 JPG，PNG 原图在素材包里
+posters/*.png
+posters/alt/
+
+# 打包素材时的临时目录
+release/
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

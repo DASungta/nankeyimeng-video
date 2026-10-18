@@ -1,0 +1,6 @@
+# tools/*.py 用到的 Python 包（Python 3.12）；另外需要 ffmpeg / ffprobe 在 PATH 里
+numpy
+opencv-python
+pillow
+# 只有 tools/voice.py（调用 VoxCPM2 录配音）需要
+gradio_client

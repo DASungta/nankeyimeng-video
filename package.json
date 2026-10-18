@@ -1,0 +1,16 @@
+{
+  "name": "nanke",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "music": "node music/make-music.mjs",
+    "prep": "python -I tools/prep_clips.py",
+    "render": "npm run music && remotion render src/index.jsx Main out/nanke.mp4 --timeout=300000 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.534"
+  }
+}

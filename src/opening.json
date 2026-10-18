@@ -1,0 +1,4 @@
+{
+ "use": "real",
+ "_use": "which opening the film starts with (S00): silk = the old 槐 painted on silk, an ant into the painted hollow, the title written on the painting (2026-10-17); real = live action in the manner of Chinese art-house openings: an ant on the bark, backlit 槐 leaves, then the title in brush calligraphy on black (2026-10-17); none = no opening, the film starts on S00A (a version the director asked for the same day). Read by tools/prep_clips.py (the length of S00, from edl.json variants), src/Film.jsx and music/make-music.mjs. After changing it: npm run prep, npm run music, then render."
+}

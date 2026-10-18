@@ -1,0 +1,4 @@
+noto-serif-sc-vf.ttf: Noto Serif SC (Source Han Serif), variable weight 200-900.
+Copyright 2017 Adobe Systems Incorporated / Google. Licensed under the SIL Open Font License, Version 1.1.
+Full text: https://openfontlicense.org/open-font-license-official-text/
+Used for the heavy display lettering on the Bilibili cover (src/Poster.jsx, CoverBili).

@@ -1,0 +1,4 @@
+{
+ "use": true,
+ "_use": "whether the film has the voice-over (2026-10-18): true = the lines in src/vo.json are played, the score and the ambient bed dip under them, the subtitles follow them, and the shots in edl.json with a voDur run that long; false = the cut as it was before the voice-over (subtitles only). Read by tools/prep_clips.py and src/Film.jsx. After changing it: npm run prep, npm run music, then render (out/nanke-vo.mp4 with the voice, out/nanke.mp4 without)."
+}

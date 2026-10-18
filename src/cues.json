@@ -1,0 +1,81 @@
+{
+ "flashes": [
+  0.55,
+  2.4
+ ],
+ "_flashes": "lightning in S25, seconds after the shot starts; read by src/Film.jsx (the flash) and music/make-music.mjs (the thunder)",
+ "eyes": {
+  "open": 3.0,
+  "snap": 4.7
+ },
+ "_eyes": "S05, seconds into the shot: his eyes stay shut until open, open slowly, and snap wide at snap; read by src/Film.jsx (the lids) and music/make-music.mjs (the shock)",
+ "opening": {
+  "reveal": [
+   0.8,
+   4.4
+  ],
+  "antIn": 0.6,
+  "antPause": [
+   3.6,
+   4.2
+  ],
+  "antGone": 6.6,
+  "title": 3.5,
+  "seal": 5.5,
+  "credit": 5.8,
+  "push": [
+   7.0,
+   8.9
+  ],
+  "dissolve": [
+   8.6,
+   10.0
+  ]
+ },
+ "_opening": "S00, the opening, seconds into it: the ink painting soaks into the silk (reveal), an ant walks in and goes into the painted hollow (antGone), the title inks in, the seal is stamped, the camera pushes into the hollow and the painting dissolves into S00A; read by src/Film.jsx (the picture) and music/make-music.mjs (the score). reveal[1] must match REVEAL in tools/make_opening.py, which bakes the ink",
+ "openingReal": {
+  "r1": [
+   0,
+   4.8
+  ],
+  "r2": [
+   4.2,
+   9.3
+  ],
+  "dark": [
+   8.6,
+   9.3
+  ],
+  "credits": [
+   [
+    0.6,
+    2.3
+   ],
+   [
+    2.4,
+    4.1
+   ],
+   [
+    4.2,
+    5.9
+   ],
+   [
+    6.0,
+    7.6
+   ],
+   [
+    7.7,
+    9.3
+   ]
+  ],
+  "title": 9.5,
+  "seal": 10.6,
+  "english": 10.7,
+  "source": 11.0,
+  "out": [
+   12.6,
+   13.4
+  ]
+ },
+ "_openingReal": "S00 when src/opening.json uses real (13.5 s), seconds into it: the credits (credits), the ant on the bark (r1), the backlit leaves dissolving in over its end (r2), into black (dark), the calligraphy coming up (title), the seal, the English title, the source, the card fading (out); S00A then comes up out of the black. Read by src/Film.jsx and music/make-music.mjs"
+}
